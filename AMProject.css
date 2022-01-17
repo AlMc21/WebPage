@@ -1,0 +1,510 @@
+/*Sets Layout*/
+body {
+    margin:0;
+	padding:0;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+
+/*Setting The Page Up */
+#myPage {
+	margin:0 auto;
+	width:90%;
+	min-width:300px;
+	max-width:1200px;
+	background:rgb(176, 179, 179);
+}
+
+
+
+/* Header Banner with image insert */
+#mainHeader {
+
+	height:100%;  /* Sets size for header bar */
+	padding:2em;
+
+	background:rgb(248, 120, 84) url(images/AMLOGO.png) no-repeat 1em center;
+
+	border:0px rgb(240, 240, 240) solid;
+}
+
+
+p1 {
+   
+  font-style: bold;
+  font-size:15px;
+	margin:1;
+  font-family: Arial, sans-serif;
+	color:rgb(0, 0, 0);
+	padding:5px 5px 5px 5px;
+	
+}
+
+/*Main Header Text*/
+h1 {
+    
+  font-size:60px;
+	margin:0;
+	font-family:Helvetica, Tahoma, sans-serif;
+	color:rgb(255, 255, 255);
+	padding:25px 100px 70px 240px;
+	
+	}
+
+
+h2 {
+	font-size:30px;
+	margin:0;
+	font-family:Helvetica, Tahoma, sans-serif;
+	color:rgb(0, 0, 0);
+	padding:25px 25px 25px 25px;
+}
+
+
+h3 {
+    
+  font-size:60px;
+margin:0;
+font-family:Helvetica, Tahoma, sans-serif;
+color:rgb(255, 255, 255);
+padding:0px 0px 0px 0px;
+}
+
+
+h4 {
+	font-size:15px;
+	margin:0;
+	font-family:Helvetica, Tahoma, sans-serif;
+	color:rgb(0, 0, 0);
+	padding:5px 5px 5px 5px;
+}
+
+
+
+h5 {
+	font-size:10px;
+	margin:0;
+	font-family:Helvetica, Tahoma, sans-serif;
+	color:rgb(0, 0, 0);
+	padding:5px 10px 10px 10px;
+	}
+
+
+h6 {
+    
+    font-size:15px;
+    margin:0;
+    font-family:Helvetica, Tahoma, sans-serif;
+    color:rgb(255, 255, 255);
+    padding:15px 100px 70px 240px;
+    }
+
+
+/* Top navigation bar */
+.topnav {
+	min-height:50px;
+	text-decoration:none;
+    list-style-type:none;
+	background:rgb(248, 120, 84);
+	border:2px rgb(240, 240, 240) solid;
+	padding:1;
+	margin:1;
+	height:100%;
+	width:100%;
+	height:flex;
+    overflow: hidden;
+  }
+  
+  /* Style of links for navigation */
+  .topnav a {
+	
+	border:0px rgb(240, 240, 240) solid;
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  /* Link colors */
+  .topnav a.active {
+    background:rgb(248, 120, 84);
+    color: white;
+  }
+
+  /* Change links for hover */
+  .topnav a:hover {
+	background-color:rgb(230, 230, 230);
+	color:rgb(0, 0, 0);
+  }
+  
+  .topnav li {
+	border:1px rgb(240, 240, 240) solid;
+	padding:1em;
+} 
+/* Top navigation bar */
+
+
+
+/*Page width image*/
+.hero, .container img {
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/*Information Box Setup*/
+.box, .container {
+    border:solid rgb(0, 0, 0) 2px;
+    background-color: rgb(140, 190, 245);
+	width: 50%;
+	padding:2em;
+}
+
+.box2, .container {
+ 
+  border:solid rgb(0, 0, 0) 2px;
+  background-color: rgb(140, 190, 245);
+  width: 94.5%;
+  padding:2em;
+
+}
+
+
+.container {
+	margin:1em;
+	width: calc(33% - 2em);
+	box-sizing: border-box;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.button {
+    color: whitesmoke;
+    font-size: 1.1em;
+    font-weight: 800;
+	text-decoration: none;
+	padding:.5em;
+	border:0.1em solid rgb(0, 0, 0)
+	margin:.2em;
+	border-radius:0.25em;
+	box-sizing: border-box;
+	text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+	background-color:rgb(10, 80, 145);
+	text-align:center;
+}
+
+
+
+.responsive {
+	width: 100%;
+	height: auto;
+  }
+
+
+
+/*Table 1*/
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  td, th {
+	border: 2px solid rgb(0, 0, 0);
+	text-align: left;
+	padding: 8px;
+  }
+  
+  tr:nth-child(odd) {
+	background-color: rgb(255, 255, 255);
+  }
+
+
+
+/*Footer*/
+
+footer {
+    height:60px;
+    
+    background-color: rgb(175, 180, 180);
+
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+
+
+footer a {
+	color:rgb(255, 255, 255);
+    background-color: rgb(175, 180, 180);
+}
+/*Footer*/
+
+
+
+
+
+
+
+/*The Game*/
+legend
+{
+    font-size:20px;
+    margin:0;
+    font-family:Helvetica, Tahoma, sans-serif;
+  
+    max-width:90%;
+  
+      background:rgb(248, 120, 84);
+      border:2px rgb(0, 0, 0) solid;
+      border: 2px groove (internal value);
+      color: rgb(0, 0, 0);
+      padding: 25px 30px;
+}
+
+
+fieldset
+{
+     
+    font-size:20px;
+	  margin:5;
+	  font-family:Helvetica, Tahoma, sans-serif;
+
+    display: block;
+    background:rgb(248, 120, 84);
+    min-height: 150px;
+    max-height: 100%;
+    width:95%;
+
+    border: 1px solid black; 
+    margin-left: 5px;
+    margin-right: 5px;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border:2px rgb(0, 0, 0) solid;
+    border: 2px groove (internal value);
+}
+
+
+#output 
+{
+
+    font-size:15px;
+  	margin:5;
+	  font-family:Helvetica, Tahoma, sans-serif;
+
+    background:rgb(248, 120, 84);
+    min-height: 150px;
+    max-height: 100%;
+    width:95%;
+
+    border: 1px solid black; 
+    margin-left: 5px;
+    margin-right: 5px;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border:2px rgb(0, 0, 0) solid;
+    border: 2px groove (internal value);
+
+}
+
+legend2
+{
+  font-size:20px;
+	margin:0;
+	font-family:Helvetica, Tahoma, sans-serif;
+
+  max-width:90%;
+
+    background:rgb(248, 120, 84);
+    border:2px rgb(0, 0, 0) solid;
+    border: 2px groove (internal value);
+    color: rgb(0, 0, 0);
+    padding: 25px 100px;
+}
+
+label1 {
+	font-size:30px;
+	margin:0;
+	font-family:Helvetica, Tahoma, sans-serif;
+	color:rgb(0, 0, 0);
+	padding:25px 25px 25px 25px;
+}
+
+
+input1 {
+	font-size:10px;
+	margin:1;
+	font-family:Helvetica, Tahoma, sans-serif;
+	color:rgb(0, 0, 0);
+	padding:0px 0px 0px 0px;
+}
+
+button {
+
+    height: 50px;
+    width: 300px;
+    border: 2px solid black; 
+ 
+    color: rgb(0, 0, 0);
+    background-color: rgb(53, 250, 27);
+
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  button3 {
+
+    height: 20px;
+    width: 300px;
+    border: 2px solid black; 
+    color: rgb(0, 0, 0);
+    background-color: rgb(21, 219, 54);
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+  button4 {
+    height: 20px;
+    width: 300px;
+    border: 2px solid black; 
+    color: rgb(0, 0, 0);
+    background-color: rgb(219, 21, 21);
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+
+
+/*The Game*/
+
+
+
+
+
+/*Splash Screen ------------------------------------------------------------------------------ */
+.splash{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100vh;
+  
+  background:rgb(248, 120, 84) url(images/BorthWenBanner.jpg) no-repeat center;
+
+  z-index: 200;
+  color:  rgb(255, 255, 255);
+  text-align: center;
+  line-height: 60vh;
+}
+
+.splash.display-none{
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100vh;
+  
+  background:rgb(248, 120, 84) url(images/BorthWenBanner.jpg) no-repeat center;
+  
+  z-index: -10;
+  color:  rgb(255, 255, 255);
+  text-align: center;
+  line-height: 60vh;
+  transition: all 0.5s;
+}
+
+@keyframes fadeIn{
+  to{
+    opacity: 1;
+  }
+}
+
+.fade-in{
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+
+}
+
+/*Splash Screen ----------------------------------------------------------------------------- */
+
+
+
+
+#output2 
+{
+
+    font-size:15px;
+  	margin:5;
+	  font-family:Helvetica, Tahoma, sans-serif;
+
+    background:rgb(248, 120, 84);
+    min-height: 150px;
+    max-height: 100%;
+    width:95%;
+
+    border: 1px solid black; 
+    margin-left: 5px;
+    margin-right: 5px;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border:2px rgb(0, 0, 0) solid;
+    border: 2px groove (internal value);
+
+}
+
+
+/*The end bit*/
+  </style>
+  </head>
+  <body>
+
+
+
+
+
+
+
+
